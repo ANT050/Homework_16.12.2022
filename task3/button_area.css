@@ -1,0 +1,66 @@
+.main_window .button_area {
+	width: 345px;
+	height: 376px;
+
+	margin: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	order: 2;
+	flex-wrap: wrap;
+
+	background: #3e4243;
+	border-radius: 0px 0px 40px 40px;
+}
+
+.btn {
+	width: 50px;
+	height: 30px;
+
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: white;
+
+	background: #38393d;
+	border-radius: 50px;
+
+	border: .5em solid rgba(0, 0, 0, 0);
+	background: rgb(56, 57, 61) linear-gradient(rgb(56, 57, 61), rgb(56, 57, 61)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+	box-shadow:
+		inset 0 -3px 10px rgba(56, 57, 61, 1),
+		inset 0 1px 10px rgba(0, 0, 0, .4),
+		0 2px 5px rgba(0, 0, 0, .9);
+
+}
+
+.equally {
+	height: 30px;
+	width: 225px;
+}
+
+.btn:hover {
+	filter: brightness(130%);
+}
+
+.btn:active {
+	filter: brightness(80%);
+}
+
+.btn.violet {
+	background: #8c28e3;
+	box-shadow:
+		inset 0 -3px 10px rgba(140, 40, 227),
+		inset 0 1px 10px rgba(0, 0, 0, .4),
+		0 2px 5px rgba(0, 0, 0, .9);
+}
+
+.btn.orange {
+	background: #f4bc2a;
+	box-shadow:
+		inset 0 -3px 10px rgba(244, 188, 42),
+		inset 0 1px 10px rgba(0, 0, 0, .4),
+		0 2px 5px rgba(0, 0, 0, .9);
+}

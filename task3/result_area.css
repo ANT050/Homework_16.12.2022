@@ -1,0 +1,43 @@
+.main_window .result_area {
+	width: 345px;
+	height: 200px;
+
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-direction: column;
+	text-align: right;
+
+	background: #3e4243;
+	border-radius: 40px 40px 0px 0px;
+}
+
+.values {
+	width: 289px;
+	height: 24px;
+	margin: 0 27px 0 27px;
+	padding: 0 0 15px 0;
+
+	font-weight: 500;
+	font-size: 20px;
+	color: #666a6b;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.result {
+	width: 289px;
+	height: 42px;
+	order: 1;
+	margin: 0 21px 0 21px;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	font-weight: 600;
+	font-size: 35px;
+	color: #a4afb1;
+}
