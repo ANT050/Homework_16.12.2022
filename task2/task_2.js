@@ -17,9 +17,6 @@ function out() {
 	else if (lastChar >= 2 && lastChar <= 4) {
 		document.getElementById('result').value = `${meaning} Яблока`;
 	}
-	else if (lastChar == 0) {
-		document.getElementById('result').value = `${meaning} Яблок`;
-	}
 	else
 		document.getElementById('result').value = `${meaning} Яблок`;
 }
