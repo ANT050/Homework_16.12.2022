@@ -50,17 +50,17 @@
 }
 
 .btn.violet {
-	background: #8c28e3;
+	background: #4d463c;
 	box-shadow:
-		inset 0 -3px 10px rgba(140, 40, 227),
+		inset 0 -3px 10px rgba(77, 70, 60),
 		inset 0 1px 10px rgba(0, 0, 0, .4),
 		0 2px 5px rgba(0, 0, 0, .9);
 }
 
 .btn.orange {
-	background: #f4bc2a;
+	background: #e25151;
 	box-shadow:
-		inset 0 -3px 10px rgba(244, 188, 42),
+		inset 0 -3px 10px rgba(255, 0, 0),
 		inset 0 1px 10px rgba(0, 0, 0, .4),
 		0 2px 5px rgba(0, 0, 0, .9);
 }
